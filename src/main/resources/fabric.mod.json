@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "spawner-config",
+  "version": "${version}",
+  "name": "Spawner Config",
+  "description": "A server-side mod that allows for behavior tweaks to Mob Spawners.",
+  "authors": [
+    "Draylar"
+  ],
+  "contact": {
+    "website": "https://www.curseforge.com/minecraft/mc-mods/spawner-config",
+    "repo": "https://github.com/Draylar/spawner-config"
+  },
+  "license": "MIT",
+  "icon": "assets/spawnerconfig/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "draylar.sc.SpawnerConfig"
+    ]
+  },
+  "mixins": [
+    "spawner-config.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": ">=1.16.2"
+  }
+}
