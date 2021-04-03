@@ -4,7 +4,7 @@ manifestVersion = 0
   type = "mod"
   name = "spawner-config"
   description = "A server-side mod that allows for behavior tweaks to Mob Spawners."
-  version = "1.0.2"
+  version = "1.0.1"
   platform = "fabric"
   license = "MIT"
 
