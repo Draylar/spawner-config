@@ -91,7 +91,7 @@ public abstract class MobSpawnerLogicMixin implements SpawnerAccessor {
         }
 
         // check if spawner should break
-        if(damage >= maxDamage) {
+        if(SpawnerConfig.CONFIG.breakSpawners && damage >= maxDamage) {
             world.breakBlock(getPos(), false);
 
             // drop loot if config option is enabled

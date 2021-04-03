@@ -12,6 +12,7 @@ public class SCConfig implements Config {
     public int experienceVariance = 50;
     public boolean damagedSpawnersDropExperience = false;
     public boolean damagedSpawnersDropLoot = false;
+    public boolean breakSpawners = true;
 
     @Override
     public String getName() {
